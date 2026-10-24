@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О себе - Бокор Евгений</title>
+    <link rel="stylesheet" href="stylelab4.css">
+</head>
+<body>
+
+    <header>
+        <h1>Бокор Евгений</h1>
+        <p>Любитель кино и сериалов</p>
+        <nav>
+            <ul>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#films">Топ фильмов</a></li>
+                <li><a href="#directors">Режиссёры</a></li>
+                <li><a href="#contact">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="img-box">
+            <img src="image/photo.jpg" alt="Cinema">
+            <span class="badge">Cinema</span>
+        </section>
+
+        <section id="skills">
+            <h2>Навыки</h2>
+            <ul>
+                <li>Сценарный анализ</li>
+                <li>Импровизация</li>
+                <li>Анализ графики</li>
+            </ul>
+        </section>
+
+        <section id="films">
+            <h2>Топ фильмов для просмотра</h2>
+            <div class="cards">
+                <article class="card">
+                    <img src="image/poster1.jpg" alt="Зелёный фонарь">
+                    <div>
+                        <h3>Зелёный фонарь</h3>
+                        <p>Фантастический боевик</p>
+                        <p>Жанр: фантастика</p>
+                        <p>Год: 2011</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="image/poster2.jpg" alt="Всеведущий читатель">
+                    <div>
+                        <h3>Всеведущий читатель</h3>
+                        <p>Мистический сериал</p>
+                        <p>Жанр: фэнтези</p>
+                        <p>Год: 2025</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="image/poster3.jpg" alt="Живая сталь">
+                    <div>
+                        <h3>Живая сталь</h3>
+                        <p>Спортивная драма</p>
+                        <p>Жанр: фантастика</p>
+                        <p>Год: 2011</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="image/poster4.jpg" alt="Колобок">
+                    <div>
+                        <h3>Колобок</h3>
+                        <p>Семейная комедия</p>
+                        <p>Жанр: мультфильм</p>
+                        <p>Год: 2026</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="directors">
+            <h2>Любимые режиссёры</h2>
+            <div class="gallery">
+                <figure>
+                    <img src="image/director1.jpg" alt="Кристофер Нолан">
+                    <figcaption>Кристофер Нолан<br>Знаковый фильм: «Начало»</figcaption>
+                </figure>
+                <figure>
+                    <img src="image/director2.jpg" alt="Дени Вильнёв">
+                    <figcaption>Дени Вильнёв<br>Знаковый фильм: «Дюна»</figcaption>
+                </figure>
+                <figure>
+                    <img src="image/director3.jpg" alt="Питер Джексон">
+                    <figcaption>Питер Джексон<br>Знаковый фильм: «Властелин колец»</figcaption>
+                </figure>
+                <figure>
+                    <img src="image/director4.jpg" alt="Джеймс Кэмерон">
+                    <figcaption>Джеймс Кэмерон<br>Знаковый фильм: «Аватар»</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Обратная связь</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+
+        <aside>
+            <h3>Любимые жанры</h3>
+            <p>Фэнтези и фантастика</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Бокор Евгений</p>
+        <a href="#">Главная</a>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
